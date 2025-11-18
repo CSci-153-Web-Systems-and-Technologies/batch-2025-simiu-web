@@ -21,9 +21,9 @@
   --container-center: true;
   --container-padding-x: 20px;
   --container-padding-x-lg: 80px;
-  --container-max-width-sm: 375px;
-  --container-max-width-md: 768px;
-  --container-max-width-lg: 1200px;
+  --container-max-width-sm: 500px;
+  --container-max-width-md: 920px;
+  --container-max-width-lg: 1400px;
 }
 
 @media (prefers-color-scheme: dark) {
