@@ -1,4 +1,3 @@
-import Button from "./Button";
 import starsBg from "@/public/stars.png";
 import Image from "next/image";
 import DashboardImg from "@/public/Dashboard.png";
@@ -44,7 +43,11 @@ export const Hero = () => {
           powerful AI interviewer.
         </p>
         <div className="flex justify-center mt-5">
-          <Button>Start my interview</Button>
+          <div className="p-2 border border-white/20 rounded-lg z-3">
+            <button className="bg-white text-black rounded-lg px-5 py-3 hover:cursor-pointer">
+              Start my interview
+            </button>
+          </div>
         </div>
         <div className="mt-12 w-full max-w-360 mx-auto flex justify-center mb-10">
           <div className="p-2 bg-linear-to-r from-[#0D0718] via-[rgb(15,8,27,0)] to-[#0D0718] rounded-xl shadow-[0_0_50px_rgb(140,69,255,.5)] w-full">
