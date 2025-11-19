@@ -6,7 +6,7 @@ import ringerIcon from "@/public/ringer.png";
 
 export const Features = () => {
   return (
-    <section className="bg-linear-to-br from-[#190D2E] to-[#020103] border-t border-b border-white/15 py-16">
+    <section className="bg-linear-to-br from-[#190D2E] to-[#020103] md:border-t md:border-b md:border-white/15 py-16">
       <div className="container flex flex-col gap-10 justify-center items-center">
         <h2 className="text-6xl text-center">Get the job of your dream</h2>
         <div className="flex flex-col md:flex-row w-full max-w-[700px] items-center md:items-start justify-between gap-7">
