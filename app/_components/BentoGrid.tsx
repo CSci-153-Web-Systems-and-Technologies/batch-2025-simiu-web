@@ -21,7 +21,7 @@ function BentoGrid() {
               <h3 className="font-bold mb-1">
                 Instant personalized interviews
               </h3>
-              <p>
+              <p className="text-white/60">
                 Import your job from any job site. Upload your CV. Our AI
                 interviewer will personalise your questions
               </p>
@@ -38,7 +38,9 @@ function BentoGrid() {
             />
             <div className="max-w-3xs z-3 absolute bottom-14 left-6">
               <h3 className="font-bold mb-1">User-friendly dashboard</h3>
-              <p>Create an interview preparation with just one click!</p>
+              <p className="text-white/60">
+                Create an interview preparation with just one click!
+              </p>
             </div>
           </div>
         </div>
@@ -54,7 +56,7 @@ function BentoGrid() {
             />
             <div className="max-w-3xs z-3 absolute bottom-7 left-6">
               <h3 className="font-bold mb-1">Feedback reports</h3>
-              <p>
+              <p className="text-white/60">
                 Get actionable, constructive feedback, and perfect your
                 strengths
               </p>
@@ -70,7 +72,7 @@ function BentoGrid() {
               <h3 className="font-bold mb-1">
                 Instant personalized interviews
               </h3>
-              <p>
+              <p className="text-white/60">
                 Import your job from any job site. Upload your CV. Our AI
                 interviewer will personalise your questions
               </p>
