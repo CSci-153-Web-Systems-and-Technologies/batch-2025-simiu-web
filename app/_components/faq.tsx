@@ -36,7 +36,7 @@ const faq = [
 
 const FAQ = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#020103] relative">
+    <section className="py-8 pb-16 flex items-center justify-center bg-[#020103] relative">
       <div
         className="container flex flex-col items-center border border-white/10 rounded-xl px-8 py-16 md:p-16 gap-8 relative overflow-hidden"
         style={{ backgroundImage: `url(${gridPattern.src})` }}
