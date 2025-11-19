@@ -61,7 +61,11 @@ function BentoGrid() {
             </div>
           </div>
           <div className="max-w-[326px] h-96 rounded-xl flex flex-col justify-center items-center gap-3 p-6 border border-white/20">
-            <Image src={Trapeziod3d} className="h-[215px]" alt="3D Trapezoid" />
+            <Image
+              src={Trapeziod3d}
+              className="h-[215px] w-auto"
+              alt="3D Trapezoid"
+            />
             <div className="max-w-2xs">
               <h3 className="font-bold mb-1">
                 Instant personalized interviews
