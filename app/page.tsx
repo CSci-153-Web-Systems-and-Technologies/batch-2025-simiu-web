@@ -3,6 +3,7 @@ import { Header } from "./_components/Header";
 import { Hero } from "./_components/Hero";
 import { Features } from "./_components/Features";
 import FAQ from "./_components/faq";
+import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <BentoGrid />
       <Features />
       <FAQ />
+      <Footer />
     </>
   );
 }
