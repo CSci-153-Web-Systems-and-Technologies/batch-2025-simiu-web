@@ -37,6 +37,7 @@ export async function updateSession(request: NextRequest) {
     "/", // Home page
     "/login",
     "/signup",
+    "/auth",
   ];
 
   // Check if current path is public
