@@ -1,6 +1,6 @@
+import { LoginForm } from "@/app/_components/login-form";
 import Image from "next/image";
 import LogoIcon from "@/public/Logo2.png";
-import { LoginForm } from "@/app/_components/login-form";
 
 export default function page() {
   return (
@@ -19,15 +19,15 @@ export default function page() {
             Do you want to be the only candidate that didn&apos;t prepare?
           </h1>
           <p className="text-3xl font-thin text-white">
-            Sign in and start your interview now!
+            Sign Up and start your interview now!
           </p>
         </div>
         <div className="max-w-[600px] w-full flex flex-col gap-6 items-center">
-          <LoginForm variant="signin" />
+          <LoginForm variant="signup" />
         </div>
       </div>
       <p className="absolute bottom-15 lg:left-30 text-white font-thin text-sm">
-        By cliking “Sign in”, you accept Simiu&apos;s{" "}
+        By cliking “Sign up”, you accept Simiu&apos;s{" "}
         <a href="#" className="underline">
           Terms of Service
         </a>{" "}
