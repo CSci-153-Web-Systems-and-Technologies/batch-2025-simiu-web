@@ -37,7 +37,7 @@ export function LoginForm({
     setError(null);
 
     try {
-      const { url } = await signInWithGoogle("/dashboard");
+      const { url } = await signInWithGoogle("/mock-interview");
       if (url) {
         window.location.href = url;
       } else {
