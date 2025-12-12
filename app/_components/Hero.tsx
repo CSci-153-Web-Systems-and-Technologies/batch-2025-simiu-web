@@ -1,6 +1,7 @@
 import starsBg from "@/public/stars.png";
 import Image from "next/image";
 import DashboardImg from "@/public/Dashboard.png";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -43,9 +44,11 @@ export const Hero = () => {
         </p>
         <div className="flex justify-center mt-5">
           <div className="p-2 border border-white/20 rounded-lg z-3">
-            <button className="bg-white text-black rounded-lg px-4 py-2 md:px-5 md:py-3 hover:cursor-pointer">
-              Start my interview
-            </button>
+            <Link href="/mock-interview">
+              <button className="bg-white text-black rounded-lg px-4 py-2 md:px-5 md:py-3 hover:cursor-pointer">
+                Start my interview
+              </button>
+            </Link>
           </div>
         </div>
         <div className="mt-12 w-full max-w-360 mx-auto flex justify-center mb-10">

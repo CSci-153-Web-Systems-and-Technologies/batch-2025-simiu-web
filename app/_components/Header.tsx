@@ -2,6 +2,7 @@ import LogoIcon from "@/public/Logo2.png";
 import MenuIcon from "@/public/icon-menu.svg";
 import Button from "./Button";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -42,7 +43,9 @@ export const Header = () => {
             </nav>
           </div>
           <div className="flex gap-4 items-center">
-            <Button>Sign Up</Button>
+            <Link href="/signup">
+              <Button>Sign Up</Button>
+            </Link>
             <Image src={MenuIcon} alt="Menu" className="md:hidden" />
           </div>
         </div>
